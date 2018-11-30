@@ -389,8 +389,8 @@ public class IdentificationActivity extends AppCompatActivity {
         Button identifyButton = (Button) findViewById(R.id.identify);
         identifyButton.setEnabled(isEnabled);
 
-        Button viewLogButton = (Button) findViewById(R.id.view_log);
-        viewLogButton.setEnabled(isEnabled);
+        //Button viewLogButton = (Button) findViewById(R.id.view_log);
+        //viewLogButton.setEnabled(isEnabled);
     }
 
     // Set the group button is enabled or not.

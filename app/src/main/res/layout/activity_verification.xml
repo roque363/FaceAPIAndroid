@@ -159,14 +159,14 @@
             android:onClick="verify"
             style="@style/ButtonStyle" />
 
-        <Button
+        <!-- <Button
             android:id="@id/view_log"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="@string/view_log"
             android:onClick="viewLog"
-            style="@style/ButtonStyle" />
+            style="@style/ButtonStyle" /> -->
 
     </LinearLayout>
 

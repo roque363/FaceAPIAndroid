@@ -307,8 +307,8 @@ public class PersonVerificationActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.select_image_0);
         button.setEnabled(isEnabled);
 
-        Button viewLog = (Button) findViewById(R.id.view_log);
-        viewLog.setEnabled(isEnabled);
+        //Button viewLog = (Button) findViewById(R.id.view_log);
+        //viewLog.setEnabled(isEnabled);
     }
 
     // Set the verify button is enabled or not.
@@ -328,8 +328,8 @@ public class PersonVerificationActivity extends AppCompatActivity {
         Button verify = (Button) findViewById(R.id.verify);
         verify.setEnabled(isEnabled);
 
-        Button viewLog = (Button) findViewById(R.id.view_log);
-        viewLog.setEnabled(isEnabled);
+        //Button viewLog = (Button) findViewById(R.id.view_log);
+        //viewLog.setEnabled(isEnabled);
     }
 
     // Initialize the ListView which contains the thumbnails of the detected faces.
