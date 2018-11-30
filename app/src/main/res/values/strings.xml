@@ -1,9 +1,7 @@
-<!-- Copyright (c) Microsoft. All rights reserved. -->
-
 <resources>
     <!-- Please refer to https://azure.microsoft.com/en-us/services/cognitive-services/face/ to get your subscription key -->
     <!-- If you have subscription key with its corresponding endpoint, you can add them here to use the service -->
-    <string name="subscription_key">c0eb8c113139466cbf69e876ca2bf0eb</string>
+    <string name="subscription_key">37bddc164e27454db27b2c373b23e99f</string>
     <string name="endpoint">https://southcentralus.api.cognitive.microsoft.com/face/v1.0</string>
 
     <!-- Main activity -->
@@ -11,69 +9,69 @@
     <string name="face_verification">Face to Face Verification</string>
     <string name="person_verification">Face to Person Verification</string>
     <string name="verification">Verification</string>
-    <string name="identification">Identification</string>
+    <string name="identification">Identificar Personas</string>
     <string name="grouping">Grouping</string>
-    <string name="find_similar_faces">Find Similar Faces</string>
+    <string name="find_similar_faces">Encontrar caras similares</string>
     <string name="detection_description">Detect faces, face landmarks, pose, smile, glasses, gender, and age.</string>
     <string name="verification_description">Authentication between two faces or between a face and a person.</string>
     <string name="grouping_description">Group faces based on similarity.</string>
     <string name="find_similar_face_description">Search for similar-looking faces.</string>
-    <string name="identification_description">Identify the person from a face.</string>
+    <string name="identification_description">Identifica personas por su rostro</string>
 
     <!-- Tips to get subscription key shown on main activity-->
-    <string name="app_name">Microsoft Cognitive Services Face</string>
-    <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
+    <string name="app_name">Student Recognition</string>
+    <string name="add_subscription_key_tip_title">Se necesita clave de suscripción</string>
     <string name="add_subscription_key_tip">Please put your subscription key with its corresponding endpoint to source file \"app/res/values/strings.xml\" to enable Face API calls.</string>
 
     <!-- Detection activity -->
-    <string name="image">Image:</string>
-    <string name="select_image">Select\nImage</string>
-    <string name="result">Result:</string>
-    <string name="detect">Detect</string>
+    <string name="image">Imagen:</string>
+    <string name="select_image">Seleccionar\nImagen</string>
+    <string name="result">Resultado:</string>
+    <string name="detect">Detectar</string>
 
     <!-- Verification activity -->
     <string name="verify">Verify</string>
-    <string name="face_0">Face0:</string>
-    <string name="face_1">Face1:</string>
+    <string name="face_0">Rostro0:</string>
+    <string name="face_1">Rostro1:</string>
     <string name="manage_persons">Manage\nPersons</string>
-    <string name="verification_menu">Verification\nMenu</string>
+    <string name="verification_menu">Menu de\nVerificación</string>
 
     <!-- Verification activity -->
-    <string name="face">Face:</string>
-    <string name="group">Group</string>
+    <string name="face">Rostro</string>
+    <string name="group">Grupo</string>
 
     <!-- Identification activity -->
-    <string name="identify">Identify</string>
-    <string name="manage_person_groups">Manage\nPerson\nGroups</string>
-    <string name="person_groups">Person Groups</string>
-    <string name="target_image">Target image</string>
-    <string name="faces">Faces in image</string>
+    <string name="identify">Identificar</string>
+    <string name="manage_person_groups">Administrar\nGrupos</string>
+    <string name="person_groups">Grupos de personas</string>
+    <string name="target_image">Imagen escogida:</string>
+    <string name="faces">Personas en la imagen</string>
 
     <!-- Person group management activities -->
-    <string name="delete">Delete</string>
-    <string name="done_and_save">Save</string>
+    <string name="delete">Borrar</string>
+    <string name="done_and_save">Guardar</string>
 
-    <string name="person_group_list">Person Group List</string>
-    <string name="person_group_list_tip">- Tap on a group to edit.\n- Long tap to delete.</string>
-    <string name="add_person_group">Add Person Group</string>
+    <string name="person_group_list">Lista de Grupos</string>
+    <string name="person_group_list_tip">- Tap en un grupo para editar.\n- Tap largo para eliminar.</string>
+    <string name="add_person_group">Crear grupo</string>
 
-    <string name="person_group">Person Group</string>
-    <string name="person_group_tip">- Tap on a person to edit.\n- Long press to delete.</string>
-    <string name="person_group_name">Person group name:</string>
-    <string name="type_in_person_group_name_tip">Name (within 30 characters)</string>
-    <string name="add_person">Add Person</string>
+    <string name="person_group">Grupo de Personas</string>
+    <string name="person_group_tip">- Tap en una persona para editar.\n- Tap largo para eliminar.</string>
+    <string name="person_group_name">Nombre del Grupo:</string>
+    <string name="type_in_person_group_name_tip">Nombre (Max. 30 characters)</string>
+    <string name="add_person">Agregar Persona</string>
 
-    <string name="person">Person</string>
+    <string name="person">Persona</string>
     <string name="persons">Persons</string>
-    <string name="person_tip">- Long press on a face to delete.</string>
-    <string name="type_in_person_name_tip">Name (within 30 characters)</string>
-    <string name="add_face">Add Face</string>
-    <string name="person_name">Person name:</string>
-    <string name="add_face_to_person">Add Faces To Person</string>
-    <string name="select_face_tip">Select this person\'s faces (if exist) by click on the checkbox.</string>
+    <string name="person_tip">- Tap largo en un rostro para borrar.</string>
+    <string name="type_in_person_name_tip">Nombre (Max. 30 characters)</string>
+    <string name="add_face">Agregar Cara</string>
+    <string name="person_name">Nombre de la Persona:</string>
+    <string name="add_face_to_person">Agregar rostros a la persona</string>
+    <string name="select_face_tip">Seleccionar los rostros de esta persona, haciendo click en los checkbox.</string>
 
     <!-- Find similar faces and grouping activity -->
-    <string name="zero_face">Face list: 0 faces in total</string>
+    <string name="zero_face">Lista de Rostros: 0 rostros en total</string>
     <string name="target_face">Target face:</string>
     <string name="all_faces">All Faces:</string>
     <string name="add_faces">Add\nFaces</string>
@@ -81,13 +79,13 @@
     <string name="similar_face_description">Finding matchFace faces...</string>
 
     <!-- Common in all activities -->
-    <string name="progress_dialog_title">Please wait</string>
-    <string name="view_log">View Log</string>
+    <string name="progress_dialog_title">Por Favor Espera</string>
+    <string name="view_log">Ver Log</string>
 
     <!-- Select image activity -->
-    <string name="select_an_image">Select an Image</string>
-    <string name="take_photo">Take a Photo</string>
-    <string name="select_image_in_album">From Gallery</string>
+    <string name="select_an_image">Selecciona una Imagen</string>
+    <string name="take_photo">Cámara</string>
+    <string name="select_image_in_album">Galería</string>
 
     <!-- Logs -->
     <string name="log">Log:</string>
@@ -98,13 +96,13 @@
     <string name="identification_log">Identification Log</string>
 
     <!-- Warning messages -->
-    <string name="person_name_empty_warning_message">Person name cannot be empty</string>
-    <string name="no_face_to_group">No faces to group</string>
-    <string name="no_person_group_selected_for_identification_warning">No person group selected</string>
-    <string name="face_cannot_be_identified">Unknown person</string>
-    <string name="user_provided_person_name">Person name</string>
-    <string name="user_provided_description_data">User data</string>
-    <string name="user_provided_person_group_name">Person group name</string>
-    <string name="user_provided_person_group_description_data">User data</string>
+    <string name="person_name_empty_warning_message">El nombre de la Persona no puede star vacio</string>
+    <string name="no_face_to_group">No hay rostros para agrupar</string>
+    <string name="no_person_group_selected_for_identification_warning">Ningún grupo de personas seleccionado</string>
+    <string name="face_cannot_be_identified">Persona Desconocida</string>
+    <string name="user_provided_person_name">Nombre de la persona</string>
+    <string name="user_provided_description_data">Datos del usuario</string>
+    <string name="user_provided_person_group_name">Nombre del grupo de personas</string>
+    <string name="user_provided_person_group_description_data">Datos del usuario</string>
 
 </resources>
