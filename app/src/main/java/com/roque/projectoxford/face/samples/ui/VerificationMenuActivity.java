@@ -1,11 +1,11 @@
-package com.microsoft.projectoxford.face.samples.ui;
+package com.roque.projectoxford.face.samples.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.microsoft.projectoxford.face.samples.R;
+import com.roque.projectoxford.face.samples.R;
 
 /**
  * Created by wangjun on 5/24/2016.

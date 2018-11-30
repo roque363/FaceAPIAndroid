@@ -1,4 +1,4 @@
-package com.microsoft.projectoxford.face.samples.ui;
+package com.roque.projectoxford.face.samples.ui;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -23,13 +23,13 @@ import com.microsoft.projectoxford.face.FaceServiceClient;
 import com.microsoft.projectoxford.face.contract.Face;
 import com.microsoft.projectoxford.face.contract.IdentifyResult;
 import com.microsoft.projectoxford.face.contract.TrainingStatus;
-import com.microsoft.projectoxford.face.samples.R;
-import com.microsoft.projectoxford.face.samples.helper.ImageHelper;
-import com.microsoft.projectoxford.face.samples.helper.LogHelper;
-import com.microsoft.projectoxford.face.samples.helper.SampleApp;
-import com.microsoft.projectoxford.face.samples.helper.StorageHelper;
-import com.microsoft.projectoxford.face.samples.log.IdentificationLogActivity;
-import com.microsoft.projectoxford.face.samples.persongroupmanagement.PersonGroupListActivity;
+import com.roque.projectoxford.face.samples.R;
+import com.roque.projectoxford.face.samples.helper.ImageHelper;
+import com.roque.projectoxford.face.samples.helper.LogHelper;
+import com.roque.projectoxford.face.samples.helper.SampleApp;
+import com.roque.projectoxford.face.samples.helper.StorageHelper;
+import com.roque.projectoxford.face.samples.log.IdentificationLogActivity;
+import com.roque.projectoxford.face.samples.persongroupmanagement.PersonGroupListActivity;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

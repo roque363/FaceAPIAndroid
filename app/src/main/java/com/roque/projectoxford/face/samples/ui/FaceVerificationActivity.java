@@ -1,4 +1,4 @@
-package com.microsoft.projectoxford.face.samples.ui;
+package com.roque.projectoxford.face.samples.ui;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -20,11 +20,11 @@ import android.widget.TextView;
 import com.microsoft.projectoxford.face.FaceServiceClient;
 import com.microsoft.projectoxford.face.contract.Face;
 import com.microsoft.projectoxford.face.contract.VerifyResult;
-import com.microsoft.projectoxford.face.samples.R;
-import com.microsoft.projectoxford.face.samples.helper.ImageHelper;
-import com.microsoft.projectoxford.face.samples.helper.LogHelper;
-import com.microsoft.projectoxford.face.samples.helper.SampleApp;
-import com.microsoft.projectoxford.face.samples.log.VerificationLogActivity;
+import com.roque.projectoxford.face.samples.R;
+import com.roque.projectoxford.face.samples.helper.ImageHelper;
+import com.roque.projectoxford.face.samples.helper.LogHelper;
+import com.roque.projectoxford.face.samples.helper.SampleApp;
+import com.roque.projectoxford.face.samples.log.VerificationLogActivity;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
